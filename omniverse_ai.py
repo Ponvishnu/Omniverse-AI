@@ -17,7 +17,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 # === Gemini Configuration ===
-genai.configure(api_key="AIzaSyB8YVZz-UYA6ILALFOX1ljdnsYgWLiYE_Q")  # Replace with your Gemini API key
+genai.configure(api_key="youe_api_key")  # Replace with your Gemini API key
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # === Vosk Model (Offline Speech-to-Text) ===

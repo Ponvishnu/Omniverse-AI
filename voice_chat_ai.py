@@ -7,7 +7,7 @@ import pyttsx3
 import google.generativeai as genai
 
 # ====== CONFIGURATION ======
-API_KEY = "AIzaSyB8YVZz-UYA6ILALFOX1ljdnsYgWLiYE_Q"  # <<< PUT your actual key here
+API_KEY = "your_api_key"  # <<< PUT your actual key here
 genai.configure(api_key=API_KEY)
 
 # Use 'gemini-1.5-flash' – faster & available
