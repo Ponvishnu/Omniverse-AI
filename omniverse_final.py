@@ -20,7 +20,7 @@ from pptx import Presentation
 import pandas as pd
 
 # === Gemini API ===
-genai.configure(api_key="AIzaSyB8YVZz-UYA6ILALFOX1ljdnsYgWLiYE_Q")
+genai.configure(api_key="your_api_key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # === Vosk Model ===
